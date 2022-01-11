@@ -1,7 +1,7 @@
 ////////////////////////////////////////
 // LOGO
 .logo {
-
+    height: 3.25rem;
 }
 
 
@@ -16,6 +16,8 @@
     }
 
     &__icon {
+        height: 2rem;
+        width: 2rem;
     }
 }
 
@@ -27,12 +29,17 @@
         position: relative;
     }
 
-    &__icon {
+    &__icon {        
+        height: 2.25rem;
+        width: 2.25rem;
+
     }
 
     &__notification {
     }
 
     &__user-photo {
+        height: 3.75rem;
+        border-radius: 50%;
     }
 }
