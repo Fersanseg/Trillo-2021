@@ -36,6 +36,9 @@ body {
   background-repeat: no-repeat;
   min-height: 100vh; }
 
+.user-nav__icon-box {
+  position: relative; }
+
 .container {
   max-width: 120rem;
   margin: 8rem auto;
