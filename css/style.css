@@ -37,10 +37,12 @@ body {
   min-height: 100vh; }
 
 .logo {
-  height: 3.25rem; }
+  height: 3.25rem;
+  margin-left: 3rem; }
 
 .search {
-  background-color: orangered; }
+  background-color: orangered;
+  flex: 0 0 40%; }
   .search__icon {
     height: 2rem;
     width: 2rem; }
