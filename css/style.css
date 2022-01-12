@@ -38,7 +38,7 @@ body {
 
 .logo {
   height: 3.25rem;
-  margin-left: 3rem; }
+  margin-left: 2rem; }
 
 .search {
   flex: 0 0 40%;
@@ -111,6 +111,7 @@ body {
     align-items: center; }
   .user-nav__user-photo {
     height: 3.75rem;
+    margin-right: 1rem;
     border-radius: 50%; }
 
 .container {
