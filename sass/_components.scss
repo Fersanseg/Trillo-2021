@@ -78,6 +78,7 @@
     background-color: greenyellow;
     display: flex;
     align-items: center;
+    align-self: stretch;
 
     &>* {
         padding: 0 2rem;
