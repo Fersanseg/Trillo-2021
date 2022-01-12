@@ -82,6 +82,11 @@ body {
   background-color: greenyellow;
   display: flex;
   align-items: center; }
+  .user-nav > * {
+    padding: 0 2rem;
+    cursor: pointer; }
+  .user-nav > *:hover {
+    background-color: var(--color-grey-light-2); }
   .user-nav__icon-box {
     position: relative; }
   .user-nav__icon {
