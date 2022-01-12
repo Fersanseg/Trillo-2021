@@ -79,7 +79,8 @@ body {
     fill: var(--color-grey-dark-3); }
 
 .user-nav {
-  background-color: greenyellow; }
+  background-color: greenyellow;
+  display: flex; }
   .user-nav__icon-box {
     position: relative; }
   .user-nav__icon {
