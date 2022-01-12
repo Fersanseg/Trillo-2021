@@ -84,6 +84,8 @@
         padding: 0 2rem;
         cursor: pointer;
         height: 100%;
+        display: flex;
+        align-items: center;
     }
 
     &>*:hover {
@@ -92,8 +94,6 @@
 
 
     &__icon-box {
-        display: flex;
-        align-items: center;
     }
 
     &__icon {        
