@@ -41,7 +41,11 @@ body {
   margin-left: 3rem; }
 
 .search {
-  flex: 0 0 40%; }
+  flex: 0 0 40%;
+  background-color: orangered;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
   .search__input {
     font-family: inherit;
     font-size: inherit;

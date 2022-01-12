@@ -11,6 +11,12 @@
 .search {
 
     flex: 0 0 40%;
+    background-color: orangered;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 
     &__input {
         font-family: inherit;
