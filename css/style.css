@@ -80,7 +80,8 @@ body {
 
 .user-nav {
   background-color: greenyellow;
-  display: flex; }
+  display: flex;
+  align-items: center; }
   .user-nav__icon-box {
     position: relative; }
   .user-nav__icon {
