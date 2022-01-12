@@ -41,7 +41,6 @@ body {
   margin-left: 3rem; }
 
 .search {
-  background-color: orangered;
   flex: 0 0 40%; }
   .search__input {
     font-family: inherit;
