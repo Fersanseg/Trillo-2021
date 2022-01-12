@@ -40,6 +40,10 @@
 
     }
 
+    &__input:focus+&__button {
+        background-color: var(--color-grey-light-3);
+    }
+
 
     &__button {
         border: none;
