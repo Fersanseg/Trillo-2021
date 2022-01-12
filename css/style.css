@@ -90,7 +90,8 @@ body {
   .user-nav > *:hover {
     background-color: var(--color-grey-light-2); }
   .user-nav__icon-box {
-    position: relative; }
+    display: flex;
+    align-items: center; }
   .user-nav__icon {
     height: 2.25rem;
     width: 2.25rem; }
