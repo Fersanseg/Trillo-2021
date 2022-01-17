@@ -161,6 +161,8 @@
     &__item:hover::before {
         transform: scaleY(1);
         width: 100%;
+
+        
     }
 
 
@@ -174,6 +176,9 @@
 
         display: flex;
         align-items: center;
+        position: relative; //z-index only works with positioned elements
+        z-index: 10;
+
     }
 
     &__icon {
