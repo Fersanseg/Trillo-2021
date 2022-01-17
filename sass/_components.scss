@@ -154,7 +154,7 @@
         transform-origin: bottom; //for testing purposes
         transform: scaleY(0);
         transition: transform 0.2s,
-                    width 0.4s 0.2s;
+                    width 0.4s cubic-bezier(1,0,0,1) 0.2s;
 
     }
 
