@@ -187,6 +187,18 @@ body {
     font-size: 1.2rem;
     display: flex;
     vertical-align: center; }
+  .overview__icon-location {
+    margin-right: .5rem; }
+  .overview__rating {
+    background-color: var(--color-primary);
+    color: #fff;
+    margin-left: 3rem; }
+  .overview__rating-average {
+    font-size: 2.25rem;
+    font-weight: 300; }
+  .overview__rating-count {
+    font-size: .8rem;
+    text-transform: uppercase; }
 
 .btn-inline {
   border: none;
