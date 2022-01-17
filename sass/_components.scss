@@ -261,6 +261,11 @@
         margin-left: 3rem;
         align-self: stretch;
         padding: 0 2.25rem;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     &__rating-average {
