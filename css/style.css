@@ -169,6 +169,9 @@ body {
 .overview {
   display: flex;
   justify-content: space-between; }
+  .overview__stars {
+    flex: 1;
+    background-color: orangered; }
   .overview__icon-star, .overview__icon-location {
     width: 1.75rem;
     height: 1.75rem;

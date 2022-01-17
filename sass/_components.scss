@@ -227,6 +227,8 @@
     }
 
     &__stars {
+        flex: 1; //second try. Bad because the stars expands all the space
+        background-color: orangered;
     }
 
     &__icon-star,
