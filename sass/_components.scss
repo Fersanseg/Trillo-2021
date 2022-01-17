@@ -227,7 +227,7 @@
     }
 
     &__stars {
-        flex: 1; //second try. Bad because the stars expands all the space
+        margin-right: auto; //great trick to use with flex
         background-color: orangered;
     }
 
