@@ -221,14 +221,15 @@
 // HOTEL OVERVIEW
 .overview {
     display: flex;
-    justify-content: space-between; // First try
+    border-bottom: var(--line);
+    align-items: center;
 
     &__heading {
     }
 
     &__stars {
         margin-right: auto; //great trick to use with flex
-        background-color: orangered;
+
     }
 
     &__icon-star,
