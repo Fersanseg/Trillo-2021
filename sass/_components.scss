@@ -220,6 +220,9 @@
 ////////////////////////////////////////
 // HOTEL OVERVIEW
 .overview {
+    display: flex;
+    justify-content: space-between; // First try
+
     &__heading {
     }
 
