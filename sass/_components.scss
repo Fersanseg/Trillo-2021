@@ -153,7 +153,9 @@
         background-color: var(--color-primary);    
         transform-origin: bottom; //for testing purposes
         transform: scaleY(0);
-        transition: transform 1s;  //testing a slow animation
+        transition: transform 0.2s,
+                    width 0.4s 0.2s;
+
     }
 
     &__item:hover::before {
