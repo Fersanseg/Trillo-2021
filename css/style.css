@@ -170,6 +170,12 @@ body {
   display: flex;
   border-bottom: var(--line);
   align-items: center; }
+  .overview__heading {
+    font-size: 2.25rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 1.5rem 3rem; }
   .overview__stars {
     margin-right: auto;
     display: flex; }
