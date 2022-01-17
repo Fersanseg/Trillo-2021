@@ -229,7 +229,7 @@
 
     &__stars {
         margin-right: auto; //great trick to use with flex
-
+        display: flex;
     }
 
     &__icon-star,
