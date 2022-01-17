@@ -150,8 +150,16 @@
         left: 0;
         height: 100%;
         width: 3px;
-        background-color: var(--color-primary);     
+        background-color: var(--color-primary);    
+        transform-origin: bottom; //for testing purposes
+        transform: scaleY(0);
+        transition: transform 1s;  //testing a slow animation
     }
+
+    &__item:hover::before {
+        transform: scaleY(1);
+    }
+
 
 
     &__link:link,
