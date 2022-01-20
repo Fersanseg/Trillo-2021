@@ -384,7 +384,7 @@
     align-items: center;
 
     &__count {
-        
+        margin-right: auto;  
     }
 
     &__friends {
@@ -392,6 +392,7 @@
     }
 
     &__photo {
+        box-sizing: content-box; // border makes the phot smaller. So fix it changing box-sizing
         height: 4rem;
         width: 4rem;
         border-radius: 50%;
