@@ -140,7 +140,7 @@ body {
   .side-nav__item:active::before {
     background-color: var(--color-primary-light); }
   .side-nav__link:link, .side-nav__link:visited {
-    color: var(--color-grey-light1);
+    color: var(--color-grey-light-1);
     text-decoration: none;
     display: block;
     padding: 1.5rem 3rem;
@@ -264,3 +264,18 @@ body {
   background-color: #fff;
   flex: 1;
   height: 80rem; }
+
+.detail {
+  display: flex;
+  padding: 4.5rem;
+  background-color: var(--color-grey-light-1);
+  border-bottom: var(--line); }
+
+.description {
+  background-color: orangered;
+  flex: 0 0 60%;
+  margin-right: 4.5rem; }
+
+.user-reviews {
+  background-color: yellowgreen;
+  flex: 1; }
