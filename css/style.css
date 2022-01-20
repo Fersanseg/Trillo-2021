@@ -254,8 +254,9 @@ body {
     height: 1rem;
     width: 1rem;
     margin-right: .7rem;
-    background-image: url(../img/chevron-thin-right.svg);
-    background-size: cover; }
+    background-color: var(--color-primary);
+    -webkit-mask-image: url(../img/chevron-thin-right.svg);
+    -webkit-mask-size: cover; }
 
 .container {
   max-width: 120rem;
