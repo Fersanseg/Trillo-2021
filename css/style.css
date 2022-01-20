@@ -273,7 +273,10 @@ body {
   .recommend__photo {
     height: 4rem;
     width: 4rem;
-    border-radius: 50%; }
+    border-radius: 50%;
+    border: 3px solid #fff; }
+    .recommend__photo:not(:last-child) {
+      margin-right: -2rem; }
 
 .container {
   max-width: 120rem;
